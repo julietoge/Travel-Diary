@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f4ff;
+  margin: 0;
+  font-family: Arial;
+}
+header {
+  font: 18px normal Arial;
+  text-align: center;
+  background: #779bce;
+  padding: 14px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+header a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.Contact-wrapper {
+  text-align: center;
+}
+.Contact {
+  font: 14px normal arial;
+  font-style: italic;
+  padding: 20px;
+}
+.form-control {
+width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: white;
+}
+form {
+  padding: 80px 40px 80px 40px;
+}
+form input {
+  font-size: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 36px;
+  border: none;
+  width: 80%;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+.submit_container {
+  margin-top: 0;
+  padding-right: auto;
+  padding-left: auto;
+  padding-bottom: 24px;
+}
+button {
+  background: #0056ff;
+  color: white;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+footer {
+  background: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+.nav_bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav_bottom a {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font: 12px normal Arial;
+  text-decoration: none;
+}
+.nav_bottom a:hover {
+  color: blue;
+  font: 12px normal Arial;
+  text-decoration: none;
+}
+.copywrite {
+  font: 12px normal Arial;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  color: grey;
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f4ff;
+  margin: 0;
+  font-family: Arial;
+}
+header {
+  font: 18px normal Arial;
+  text-align: center;
+  background: #779bce;
+  padding: 14px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+header a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.knowMe {
+  padding: 20px;
+  font: 16px normal Arial;
+  font-style: italic;
+  text-align: center;
+}
+.aboutUs-section,
+.aboutWebsite-section {
+  padding: 8px;
+  font: 14px normal Arial;
+  line-height: 1.5rem;
+  margin-bottom: 2em;
+}
+.aboutUs-section img {
+  width: 14em;
+  height: 168px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 6px;
+}
+
+.aboutUs-section .social,
+.aboutWebsite-section .social {
+  color: blue;
+  text-decoration: none;
+}
+.aboutUs-section .social:hover,
+.aboutWebsite-section .social:hover {
+  font-size: 14.8px;
+  transition: 1s;
+  text-decoration: underline;
+}
+.aboutUs-section h4 {
+  padding-top: 1em;
+}
+.aboutWebsite-section {
+  margin-bottom: 4.8em;
+}
+
+.aboutWebsite-section img {
+  width: 18em;
+  height: 184px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 6px;
+}
+footer {
+  clear: both;
+  background: black;
+  text-align: center;
+}
+
+footer .nav_bottom {
+  padding: 20px 0;
+}
+.nav_bottom a {
+  padding: 0 20px;
+  color: white;
+  font: 14px normal Arial;
+  text-decoration: none;
+}
+.nav_bottom a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.copyright {
+  font: 12px normal Arial;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  color: grey;
+}
